@@ -1,0 +1,32 @@
+# ---- Simulink / Embedded Coder build output ----
+slprj/
+*_ert_rtw/
+*_grt_rtw/
+*_rtw/
+codegen/
+*.slxc
+*.slx.autosave
+*.slx.r20*
+*.mdl.autosave
+
+# ---- Arduino / ESP32 binaries from the Simulink build ----
+*.elf
+*.bin
+*.hex
+*.map
+partitions.csv
+
+# ---- MATLAB ----
+*.asv
+*.m~
+*.mex*
+*.mlappinstall
+*.mltbx
+
+# ---- Arduino IDE / arduino-cli sketch builds ----
+build/
+
+# ---- OS / editor ----
+.DS_Store
+Thumbs.db
+desktop.ini
